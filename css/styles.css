@@ -297,3 +297,13 @@ img.article-image {
 #sflogo {
   margin-left: 1px;
 }
+.center-section {
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+#contact-button {
+  /* margin-left: 40%; */
+}
