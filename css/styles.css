@@ -78,7 +78,6 @@ html, body {
 .mdl-portfolio .mdl-card__supporting-text + .mdl-card__actions {
   border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
-
 .mdl-portfolio .mdl-layout__content section:not(:last-of-type) {
   position: relative;
   margin-bottom: 48px;
@@ -94,9 +93,9 @@ html, body {
   align-items: center;
   justify-content: center;
 }
-.mdl-portfolio section > .section__play-btn {
+/* .mdl-portfolio section > .section__play-btn {
   min-height: 200px;
-}
+} */
 .mdl-portfolio section > header > .material-icons {
   font-size: 3rem;
 }
