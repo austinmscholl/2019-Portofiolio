@@ -300,11 +300,14 @@ img.article-image {
 #contact-button {
   /* margin-left: 40%; */
 }
+#reactlogo {
+  margin-left: -2px;
+}
 
 /* Responsive Icons */
 
 /* Small(er) Mobile Devices */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 425px) {
   #sflogo {
     width: 90%;
     height: 90%;
