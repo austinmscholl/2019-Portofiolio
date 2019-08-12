@@ -1,0 +1,287 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>austin scholl.</title>
+
+  <meta name="description" content="Austin Scholl Portfolio Website">
+  <meta name="author" content="Austin Matthew Scholl">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-purple.min.css" /> 
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <style>
+    #view-resume {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+  </style>
+</head>
+<body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+      <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+      </div>
+      <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        <h3>austin scholl | software engineer</h3>
+      </div>
+      <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+      </div>
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+        <a href="index.html" class="mdl-layout__tab is-active">Overview</a>
+        <a href="about.html" class="mdl-layout__tab">About</a>
+        <a href="contact.html" class="mdl-layout__tab">Contact</a>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+      <div class="mdl-layout__tab-panel is-active" id="overview">
+        <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+          <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+            <img src="assets/headshot-new.png" alt="headshot" height="300px" width="220px">
+          </header>
+          <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+            <div class="mdl-card__supporting-text">
+              <h4 class="rainbow">[ hello, world! ]</h4>
+                My name is Austin Scholl and I am a Software Engineer from Indiana<br />
+                <ul>
+                  <li>Certified Salesforce Developer &amp; <a class="link-nodeco" href="https://pathfinder.salesforce.com" target="_blank">Pathfinder</a> Alumni</li>
+                  <li>Software Developer/Data Analyst at <a class="link-nodeco" href="https://openmartech.ci" target="_blank">Open MarTech</a></li>
+                  <li>Graduate of <a class="link-nodeco" href="https://elevenfifty.org" target="_blank">Eleven Fifty Academy</a>'s JavaScript bootcamp</li>
+                </ul>
+              </div>
+              <div class="mdl-card__actions">
+                <a href="about.html" class="mdl-button">Read Bio</a>
+              </div>
+            </div>
+          </section>
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 id="skills" class="mdl-cell mdl-cell--12-col">Skills</h4>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <img id="sflogo" src="assets/salesforca-seeklogo.com.svg" alt="salesforce logo" height="112px" width="80px">
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5><b><em>Salesforce.com</em></b></h5>
+                  Lightning <br />
+                  Salesforce classic <br />
+                  Apex <br />
+                  Visualforce <br />
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <img src="assets/angular-seeklogo.com.svg" alt="salesforce logo" height="88px" width="68px">
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5><b><em>Front-End &amp; Web Developement</em></b></h5>
+                  Angular <br />
+                  React.js <br />
+                  JavaScript <br />
+                  HTML &amp; CSS <br />
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <img src="assets/nodejs-seeklogo.com.svg" alt="salesforce logo" height="70px" width="70px">
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5><b><em>Backend Development</em></b></h5>
+                  Node.js <br />
+                  Python <br />
+                  C# <br />
+                  PostgreSQL<br />
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <img src="assets/Amazon_Web_Services_Logo.svg" alt="salesforce logo" height="110px" width="80px">
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5><b><em>DevOps</em></b></h5>
+                  AWS <br />
+                  Git <br />
+                  Heroku<br />
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <img src="assets/looker-seeklogo.com.svg" alt="salesforce logo" height="110px" width="80px">
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5><b><em>Data Analytics &amp; Business Intelligence</em></b></h5>
+                  Looker <br />
+                  LookerML <br />
+                  SQL <br />
+                  Amazon Redshift<br />
+                </div>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                    <img src="assets/react-seeklogo.com.svg" alt="salesforce logo" height="100px" width="80px">
+                </div>
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5><b><em>Mobile Development</em></b></h5>
+                  React-Native <br />
+                  Xamarin<br />
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section--footer">
+            <div class="mdl-grid portfolio-max-width">
+              <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                <div>
+                  <img class="article-image" src="assets/bsurentalz-edit.jpg" border="0" alt="">
+                </div>
+                <div class="mdl-card__title">
+                  <h2 class="mdl-card__title-text">BSU Rentalz</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                  Professional project built using Angular, HTML and CSS. This was my first freelance project completed under Unfolding Software LLC.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://bsurentalz-client.herokuapp.com/" target="_blank">Live Deployment</a>
+                  <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-float-right" id="btn3">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+                  <ul class="mdl-menu mdl-js-menu mdl-menu--top-right" for="btn3">
+                    <a class="link-nodeco" href="https://github.com/austinmscholl/FairRentalValuz-client" target="_blank"><li class="mdl-menu__item">GitHub: Client</li></a>
+                  </ul>
+                </div>
+              </div>
+              <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+              <div class="mdl-card__media">
+                <img class="article-image" src="assets/efamerchstore-edit.jpg" border="0" alt="">
+              </div>
+              <div class="mdl-card__title">
+               <h2 class="mdl-card__title-text">Eleven Fifty Academy Merchandise Store</h2>
+              </div>
+              <div class="mdl-card__supporting-text">
+                This application was developed as part of our Red Badge Team Project. For development we used PostgreSQL, Express, Angular, and Node.js. We used Heroku for deployment, Git for version control, Slack for communication, and Trello for project management. Implements MVC pattern and full CRUD functionality.
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://efamerch-client.herokuapp.com/" target="_blank" >Live Deployment</a>
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-float-right" id="btn4">
+                  <i class="material-icons">more_vert</i>
+                </button>
+                <ul class="mdl-menu mdl-js-menu mdl-menu--top-right" for="btn4">
+                  <a class="link-nodeco" href="https://github.com/austinmscholl/EFAMerchClient" target="_blank"><li class="mdl-menu__item">GitHub: Client</li></a>
+                  <a class="link-nodeco" href="https://github.com/austinmscholl/EFAMerchServer" target="_blank"><li class="mdl-menu__item">GitHub: Server</li></a>
+                </ul>
+              </div>
+          </div>
+          <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+            <div class="mdl-card__media">
+              <img class="article-image" src="assets/getstruments-edit.jpg" border="0" alt="">
+            </div>
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Getstruments</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              "Getstruments", my first fullstack application, was developed during Eleven Fifty Academy's Blue Badge phase. For development I used PostgreSQL, Express, React.js, and Node.js. I used Heroku for deployment and Git for version control. Implements MVC pattern and full CRUD functionality.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://getstrumentsclient.herokuapp.com" target="_blank">Live Deployment</a>
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-float-right" id="btn5">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--top-right" for="btn5">
+                <a class="link-nodeco" href="https://github.com/austinmscholl/getstrumentsClient" target="_blank"><li class="mdl-menu__item">GitHub: Client</li></a>
+                <a class="link-nodeco" href="https://github.com/austinmscholl/getstrumentsserver" target="_blank"><li class="mdl-menu__item">GitHub: Server</li></a>
+              </ul>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+            <div class="mdl-card__media">
+              <img class="article-image" src="assets/potsnplants-edit.jpg" border="0" alt="">
+            </div>
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Pots n' Plants</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              This application was developed during a 24-hour sprint. For development we used PostgreSQL Express Angular and Node.js. We used Heroku for deployment and Git for version control.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://gardenappclient.herokuapp.com/" target="_blank">Live Deployment</a>
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-float-right" id="btn6">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--top-right" for="btn6">
+                <a class="link-nodeco" href="https://github.com/austinmscholl/gardenClient" target="_blank"><li class="mdl-menu__item">GitHub: Client</li></a>
+              </ul>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+            <div class="mdl-card__media">
+              <img class="article-image" src="assets/recipeapi-edit.jpg" border="0" alt="">
+            </div>
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Edamam Recipe Search</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              This application was developed during Eleven Fifty's Gold Badge phase. Users can search recipes by entering an ingredient into the search box.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://austinmscholl.github.io/recipeApi/" target="_blank">Live Deployment</a>
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-float-right" id="btn7">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--top-right" for="btn7">
+                <a class="link-nodeco" href="https://github.com/austinmscholl/recipeApi" target="_blank"><li class="mdl-menu__item">GitHub: Client</li></a>
+              </ul>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+            <div class="mdl-card__media">
+              <img class="article-image" src="assets/lotr-edit.jpg" border="0" alt="">
+            </div>
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Lord of the Rings Store</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              This static store-front page was developed using HTML and CSS during Eleven Fifty's Gold Badge phase.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://austinmscholl.github.io/storeApp/" target="_blank">Live Deployment</a>
+              <button class="mdl-button mdl-js-button mdl-js-ripcoxple-effect mdl-button--icon btn-float-right" id="btn8">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--top-right" for="btn8">
+                <a class="link-nodeco" href="https://github.com/austinmscholl/storeApp" target="_blank"><li class="mdl-menu__item">GitHub: Client</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="">
+        <div class="mdl-cell">
+          <a href="contact.html"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+           Get in touch!
+         </button></a>
+        </div>
+      </section>
+      </div>
+          <footer class="mdl-mega-footer">
+            <div class="mdl-mega-footer--top-section">
+              <div class="mdl-mega-footer--left-section">
+                <a href="https://github.com/austinmscholl" target="_blank"><img src="assets/github.svg" alt="GitHub" height="40px" width="72px" /></a>
+                <a href="https://linkedin.com/in/austin-scholl" target="_blank"><img src="assets/linkedin.svg" alt="LinkedIn" height="40px" width="72px" /></a>
+                <a href="https://trailhead.com/me/ascholl" target="_blank"><img src="assets/salesforce.svg" alt="Trailhead" height="40px" width="72px" /></a><br /><br />
+                <p class="mdl-typography--font-light">&copy; 2019 Austin Scholl</p>
+              </div>
+              <div class="mdl-mega-footer--right-section">
+                <a class="mdl-typography--font-light" href="#overview">
+                  Back to Top
+                <i class="material-icons">expand_less</i>
+                </a>
+              </div>
+            </div>
+          </footer>
+        </main>
+    </div>
+  <a href="https://docs.google.com/document/d/1KbOGuvE05YVD562RCI7NK3aRcX9EyHBcIkzBOvAxw0o/edit?usp=sharing" target="_blank" id="view-resume" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Resume</a>
+  <!-- <script src="js/scripts.js"></script> -->
+  <script src="$$hosted_libs_prefix$$/$$version$$/material.min.js"></script>
+</body>
+</html>
