@@ -302,10 +302,32 @@ img.article-image {
 }
 
 /* Responsive Icons */
-#sflogo {
 
-}
-#nglogo {
-
+/* Small(er) Mobile Devices */
+@media screen and (max-width: 414px) {
+  #sflogo {
+    width: 90%;
+    height: 90%;
+  }
+  #nglogo {
+    width: 80%;
+    height: 80%;
+  }
+  #nodelogo {
+    width: 80%;
+    height: 80%;
+  }
+  #awslogo {
+    width: 90%;
+    height: 90%;
+  }
+  #lookerlogo {
+    width: 90%;
+    height: 90%;
+  }
+  #reactlogo {
+    width: 88%;
+    height: 88%;
+  }
 }
 
