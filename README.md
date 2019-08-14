@@ -1,1 +1,1 @@
-# austinmscholl.github.io
+# www.austinscholl.com
