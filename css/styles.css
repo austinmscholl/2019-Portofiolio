@@ -334,6 +334,12 @@ img.article-image {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #headshot {
+    max-width: 190px;
+  }
+}
+
 #emaillink {
   color: grey;
 }

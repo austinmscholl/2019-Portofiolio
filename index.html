@@ -8,6 +8,7 @@
   <meta name="description" content="Austin Matthew Scholl Professional Portfolio Website">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <title>austin scholl | portfolio</title>
+  <meta http-equiv="Cache-control" content="public" max-age=31557600>
 
   <meta name="title" content="austin scholl | portfolio">
   <meta name="author" content="Austin Matthew Scholl">
@@ -70,7 +71,7 @@
         <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
           <header
             class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
-            <img src="assets/headshot-new.png" alt="headshot" height="300px" width="220px">
+            <img src="assets/headshot-new.svg" id="headshot" alt="headshot" height="300px" width="220px">
           </header>
           <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
             <div class="mdl-card__supporting-text">
@@ -78,12 +79,14 @@
               My name is Austin Scholl and I am a Software Engineer from Indiana<br />
               <ul>
                 <li>Certified Salesforce Developer &amp; <a class="link-nodeco" href="https://pathfinder.salesforce.com"
-                    target="_blank">Pathfinder</a> Alumni</li>
+                    target="_blank" rel="noopener">Pathfinder</a> Alumni</li>
+                <li>AWS Certified Cloud Practitioner</li>
                 <li>Software Developer/Data Analyst at <a class="link-nodeco" href="https://openmartech.ci"
-                    target="_blank">Open MarTech</a></li>
-                <li>Graduate of <a class="link-nodeco" href="https://elevenfifty.org" target="_blank">Eleven Fifty
+                    target="_blank" rel="noopener">Open Martech</a></li>
+                <li>Graduate of <a class="link-nodeco" href="https://elevenfifty.org" target="_blank"
+                    rel="noopener">Eleven Fifty
                     Academy</a>'s JavaScript bootcamp</li>
-                <!-- <li>Passionate about music, technology, and the great outdoors!</li> -->
+                <li>Passionate about music, technology, and the great outdoors!</li>
               </ul>
             </div>
             <div class="mdl-card__actions">
@@ -158,13 +161,13 @@
           </div>
         </section>
         <section class="section">
-            <div class="center-section">
-                <h3 id="skills" class="mdl-cell mdl-cell--12-col">My Work</h3>
-            </div>
+          <div class="center-section">
+            <h3 id="skills" class="mdl-cell mdl-cell--12-col">My Work</h3>
+          </div>
           <div class="mdl-grid portfolio-max-width">
             <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-              <div>
-                <img class="article-image" src="assets/bsurentalz-edit.jpg" border="0" alt="">
+              <div class="mdl-card__media">
+                <img class="article-image" src="assets/bsurentalz-edit-min.jpg" border="0" alt="">
               </div>
               <div class="mdl-card__title">
                 <h2 class="mdl-card__title-text">BSU Rentalz</h2>
@@ -175,13 +178,14 @@
               </div>
               <div class="mdl-card__actions mdl-card--border">
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-                  href="https://bsurentalz-client.herokuapp.com/" target="_blank">Live Demo</a>
+                  href="https://bsurentalz-client.herokuapp.com/" target="_blank" rel="noopener">Live Demo</a>
                 <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-float-right"
                   id="btn3">
                   <i class="material-icons">more_vert</i>
                 </button>
                 <ul class="mdl-menu mdl-js-menu mdl-menu--top-right" for="btn3">
-                  <a class="link-nodeco" href="https://github.com/austinmscholl/FairRentalValuz-client" target="_blank">
+                  <a class="link-nodeco" href="https://github.com/austinmscholl/FairRentalValuz-client" target="_blank"
+                    rel="noopener">
                     <li class="mdl-menu__item">GitHub: Client</li>
                   </a>
                 </ul>
@@ -189,7 +193,7 @@
             </div>
             <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
               <div class="mdl-card__media">
-                <img class="article-image" src="assets/efamerchstore-edit.jpg" border="0" alt="">
+                <img class="article-image" src="assets/efamerchstore-edit-min.jpg" border="0" alt="">
               </div>
               <div class="mdl-card__title">
                 <h2 class="mdl-card__title-text">Eleven Fifty Academy Merchandise Store</h2>
@@ -202,16 +206,18 @@
               </div>
               <div class="mdl-card__actions mdl-card--border">
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-                  href="https://efamerch-client.herokuapp.com/" target="_blank">Live Demo</a>
+                  href="https://efamerch-client.herokuapp.com/" target="_blank" rel="noopener">Live Demo</a>
                 <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-float-right"
                   id="btn4">
                   <i class="material-icons">more_vert</i>
                 </button>
                 <ul class="mdl-menu mdl-js-menu mdl-menu--top-right" for="btn4">
-                  <a class="link-nodeco" href="https://github.com/austinmscholl/EFAMerchClient" target="_blank">
+                  <a class="link-nodeco" href="https://github.com/austinmscholl/EFAMerchClient" target="_blank"
+                    rel="noopener">
                     <li class="mdl-menu__item">GitHub: Client</li>
                   </a>
-                  <a class="link-nodeco" href="https://github.com/austinmscholl/EFAMerchServer" target="_blank">
+                  <a class="link-nodeco" href="https://github.com/austinmscholl/EFAMerchServer" target="_blank"
+                    rel="noopener">
                     <li class="mdl-menu__item">GitHub: Server</li>
                   </a>
                 </ul>
@@ -219,7 +225,7 @@
             </div>
             <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
               <div class="mdl-card__media">
-                <img class="article-image" src="assets/getstruments-edit.jpg" border="0" alt="">
+                <img class="article-image" src="assets/getstruments-edit-min.jpg" border="0" alt="">
               </div>
               <div class="mdl-card__title">
                 <h2 class="mdl-card__title-text">Getstruments</h2>
@@ -231,16 +237,18 @@
               </div>
               <div class="mdl-card__actions mdl-card--border">
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-                  href="https://getstrumentsclient.herokuapp.com" target="_blank">Live Demo</a>
+                  href="https://getstrumentsclient.herokuapp.com" target="_blank" rel="noopener">Live Demo</a>
                 <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-float-right"
                   id="btn5">
                   <i class="material-icons">more_vert</i>
                 </button>
                 <ul class="mdl-menu mdl-js-menu mdl-menu--top-right" for="btn5">
-                  <a class="link-nodeco" href="https://github.com/austinmscholl/getstrumentsClient" target="_blank">
+                  <a class="link-nodeco" href="https://github.com/austinmscholl/getstrumentsClient" target="_blank"
+                    rel="noopener">
                     <li class="mdl-menu__item">GitHub: Client</li>
                   </a>
-                  <a class="link-nodeco" href="https://github.com/austinmscholl/getstrumentsserver" target="_blank">
+                  <a class="link-nodeco" href="https://github.com/austinmscholl/getstrumentsserver" target="_blank"
+                    rel="noopener">
                     <li class="mdl-menu__item">GitHub: Server</li>
                   </a>
                 </ul>
@@ -248,7 +256,7 @@
             </div>
             <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
               <div class="mdl-card__media">
-                <img class="article-image" src="assets/potsnplants-edit.jpg" border="0" alt="">
+                <img class="article-image" src="assets/potsnplants-edit-min.jpg" border="0" alt="">
               </div>
               <div class="mdl-card__title">
                 <h2 class="mdl-card__title-text">Pots n' Plants</h2>
@@ -259,13 +267,14 @@
               </div>
               <div class="mdl-card__actions mdl-card--border">
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-                  href="https://gardenappclient.herokuapp.com/" target="_blank">Live Demo</a>
+                  href="https://gardenappclient.herokuapp.com/" target="_blank" rel="noopener">Live Demo</a>
                 <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-float-right"
                   id="btn6">
                   <i class="material-icons">more_vert</i>
                 </button>
                 <ul class="mdl-menu mdl-js-menu mdl-menu--top-right" for="btn6">
-                  <a class="link-nodeco" href="https://github.com/austinmscholl/gardenClient" target="_blank">
+                  <a class="link-nodeco" href="https://github.com/austinmscholl/gardenClient" target="_blank"
+                    rel="noopener">
                     <li class="mdl-menu__item">GitHub: Client</li>
                   </a>
                 </ul>
@@ -273,7 +282,7 @@
             </div>
             <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
               <div class="mdl-card__media">
-                <img class="article-image" src="assets/recipeapi-edit.jpg" border="0" alt="">
+                <img class="article-image" src="assets/recipeapi-edit-min.jpg" border="0" alt="">
               </div>
               <div class="mdl-card__title">
                 <h2 class="mdl-card__title-text">Edamam Recipe Search</h2>
@@ -284,13 +293,14 @@
               </div>
               <div class="mdl-card__actions mdl-card--border">
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-                  href="https://austinmscholl.github.io/recipeApi/" target="_blank">Live Demo</a>
+                  href="https://austinmscholl.github.io/recipeApi/" target="_blank" rel="noopener">Live Demo</a>
                 <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-float-right"
                   id="btn7">
                   <i class="material-icons">more_vert</i>
                 </button>
                 <ul class="mdl-menu mdl-js-menu mdl-menu--top-right" for="btn7">
-                  <a class="link-nodeco" href="https://github.com/austinmscholl/recipeApi" target="_blank">
+                  <a class="link-nodeco" href="https://github.com/austinmscholl/recipeApi" target="_blank"
+                    rel="noopener">
                     <li class="mdl-menu__item">GitHub: Client</li>
                   </a>
                 </ul>
@@ -298,7 +308,7 @@
             </div>
             <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
               <div class="mdl-card__media">
-                <img class="article-image" src="assets/lotr-edit.jpg" border="0" alt="">
+                <img class="article-image" src="assets/lotr-edit-min.jpg" border="0" alt="">
               </div>
               <div class="mdl-card__title">
                 <h2 class="mdl-card__title-text">Lord of the Rings Store</h2>
@@ -308,13 +318,14 @@
               </div>
               <div class="mdl-card__actions mdl-card--border">
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-                  href="https://austinmscholl.github.io/storeApp/" target="_blank">Live Demo</a>
+                  href="https://austinmscholl.github.io/storeApp/" target="_blank" rel="noopener">Live Demo</a>
                 <button class="mdl-button mdl-js-button mdl-js-ripcoxple-effect mdl-button--icon btn-float-right"
                   id="btn8">
                   <i class="material-icons">more_vert</i>
                 </button>
                 <ul class="mdl-menu mdl-js-menu mdl-menu--top-right" for="btn8">
-                  <a class="link-nodeco" href="https://github.com/austinmscholl/storeApp" target="_blank">
+                  <a class="link-nodeco" href="https://github.com/austinmscholl/storeApp" target="_blank"
+                    rel="noopener">
                     <li class="mdl-menu__item">GitHub: Client</li>
                   </a>
                 </ul>
@@ -335,15 +346,16 @@
       <footer class="mdl-mega-footer">
         <div class="mdl-mega-footer--top-section">
           <div class="mdl-mega-footer--left-section">
-            <a href="https://github.com/austinmscholl" target="_blank"><img src="assets/github.svg" alt="GitHub"
-                height="40px" width="72px" /></a>
-            <a href="https://linkedin.com/in/austin-scholl" target="_blank"><img src="assets/linkedin.svg"
-                alt="LinkedIn" height="40px" width="72px" /></a>
-            <a href="https://trailhead.com/me/ascholl" target="_blank"><img src="assets/salesforce.svg" alt="Trailhead"
-                height="40px" width="72px" /></a><br /><br />
-            <p class="mdl-typography"><a id="emaillink" class="link-nodeco" href="mailto:austinmscholl@gmail.com">austinmscholl@gmail.com</a></p>
-            <p class="mdl-typography--font-light"><a class="link-nodeco"
-                    href="http://austinscholl.com">&copy; 2019 Austin Scholl</a></p>
+            <a href="https://github.com/austinmscholl" target="_blank" rel="noopener"><img src="assets/github.svg"
+                alt="GitHub" height="40px" width="72px" /></a>
+            <a href="https://linkedin.com/in/austin-scholl" target="_blank" rel="noopener"><img
+                src="assets/linkedin.svg" alt="LinkedIn" height="40px" width="72px" /></a>
+            <a href="https://trailhead.com/me/ascholl" target="_blank" rel="noopener"><img src="assets/salesforce.svg"
+                alt="Trailhead" height="40px" width="72px" /></a><br /><br />
+            <p class="mdl-typography"><a id="emaillink" class="link-nodeco"
+                href="mailto:austinmscholl@gmail.com">austinmscholl@gmail.com</a></p>
+            <p class="mdl-typography--font-light"><a class="link-nodeco" href="https://austinscholl.com"
+                rel="noopener">&copy; 2019 Austin Scholl</a></p>
           </div>
           <div class="mdl-mega-footer--right-section">
             <a class="mdl-typography--font-light" href="#overview">
