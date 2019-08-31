@@ -1,9 +1,0 @@
-#+HTTPAuth
-AuthType Basic
-AuthName "Authentication Required"
-AuthUserFile "/home/sites/9b/c/c09db72aa3//public_html/ftp/guest/.htpasswd"
-Require valid-user
-Order allow,deny
-Allow from all
-#-HTTPAuth
-
